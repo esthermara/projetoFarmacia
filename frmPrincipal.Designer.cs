@@ -47,15 +47,16 @@
             // 
             // btnCadastrarEstoque
             // 
+            this.btnCadastrarEstoque.BackColor = System.Drawing.Color.Turquoise;
             this.btnCadastrarEstoque.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastrarEstoque.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadastrarEstoque.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrarEstoque.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrarEstoque.Location = new System.Drawing.Point(381, 133);
             this.btnCadastrarEstoque.Name = "btnCadastrarEstoque";
             this.btnCadastrarEstoque.Size = new System.Drawing.Size(240, 178);
             this.btnCadastrarEstoque.TabIndex = 1;
             this.btnCadastrarEstoque.Text = "Cadastro Estoque";
-            this.btnCadastrarEstoque.UseVisualStyleBackColor = true;
+            this.btnCadastrarEstoque.UseVisualStyleBackColor = false;
             this.btnCadastrarEstoque.Click += new System.EventHandler(this.btnCadastrarEstoque_Click);
             // 
             // frmPrincipal
